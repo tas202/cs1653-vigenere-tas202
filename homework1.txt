@@ -1,0 +1,47 @@
+ciphertext:
+Czxoedbuwkbvrvs! Mi lrfzyadqaj bhtc urvaaro, gbx pago kbpxlpdmq vbea yvr rn tssa
+nvairxurqb. Tz mwzsteeo buh veid aghx oq dpr dastqvzhvt, jyc zxat dejzlb tso
+kbgm oq dpr wwowc gbx cspn bb gmccixg wpid wmfvigp sv n Jqtsej ehxodsbbug.
+Yze xerjamvg hvmd l Uiflakt ofnpqnldqbq, ino dprq i bcebr-iwrno wa dtl vogf rn
+tso lvvkogozrg teyqbu(v). Aumwqg wpe nylr bwu fcmq iwr mybu rn tsoar vbeac bb d
+xrtfigh Oierco umpzcqgrzy ykurg ks1653-gsorqmrp-kjp123, zpeco iof123 qs jyce
+Sqte earuvaxo. Audze erqf umpzcqgrzy hsbu wpe EK (urxvaw). Sn lrc szvdrg atpz
+wah cstxo rqbicotl smn lxl cdxec, cknq gofb pnqlwcsbghv dzmczhvt lxl fxjmtd qg.
+Lv etdpru kado, aheuie k zrdlmp pqyh ledmzveqnr iwhu ipabwnfp. Iq iwh kivp vqgwte
+oykhpmnekbvrv amycg bwuc cwyxbizx, gbx uaj mpbrae ey qzstexovg d jadsk Xdaiduq
+raimtxiglwn ey mavcrp dpnw gof qmg iclw zwvqbs zx bula seox bi bhp kaflonxovg.
+
+a b c d e f g h i j  k  l  m  n  o  p  q  r  s  t  u  v  w  x  y  z
+0 1 2 3 4 5 6 7 8 9  10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
+
+C z  x  o e  d b  u w  k  b  v  r v s!  = > 3 26 24 15 5  4 2  21 23 11 2  22 18 22 19
+                                            0 11 10 8  13 3 8  0  11 10 8  13 3  8  0
+C o  n  g r  a t  u l  a  t  i  o n s!  = > 3 15 14 7  18 1 20 21 12 1  20 9  15 14 19 
+
+key = 0 11 10 8 13 3 8
+      a l  k  i n  d i
+
+M  i   l r  f z y a  d  q  a  j
+11 10  8 13 3 8 0 11 10 8  13 3
+b  y   d e  c r y p  t  i  n  g
+
+plaintext:
+Congratulations! By decrypting this message, you have completed step one of this
+assignment. To complete the next step of the assignment, you must submit the
+code of the tools you used to decrypt this message in a Github repository.
+You probably used a Kasiski examination, and then a brute-force on all keys of
+the discovered length(s). Submit the code you used for both of these steps to a
+private Github repository named cs1653-vigenere-abc123, where abc123 is your
+Pitt username. Share this repository with the TA (meunal). If you solved step
+one using entirely pen and paper, scan your handwritten document and submit it.
+In either case, submit a readme file describing your approach. If you have little
+documentation about your solution, you may choose to implement a basic Kasiski
+examination to ensure that you get full points on this step of the assignment.
+
+How I solved this homework:
+  First when I was examining the ciphertext I noticed some word lengths and words that seemed familiar. I first noticed ks1653-... which I
+knew was cs1653-something-username just by looking at it. Also by looking at the number of z's and x's i made the conclusion that this was
+some sort of substitution cipher, since a transposition cipher would mean the z and x's would be part of the plaintext that seemed 
+unlikely. I next saw the first word which looked very similar to congratulations! and i noticed they were the same length. I then did 
+the work you can see above to get the key. I discovered it used the vigenere cipher with the key = alkindi .  I then searched the web 
+for a vignere cipher text decrypter and used https://cryptii.com/pipes/vigenere-cipher .
